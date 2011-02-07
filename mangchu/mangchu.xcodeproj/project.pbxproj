@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF60ABBD12FFF2DD008E1E51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF60ABBC12FFF2DD008E1E51 /* UIKit.framework */; };
+		DF60ABBF12FFF2DD008E1E51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF60ABBE12FFF2DD008E1E51 /* Foundation.framework */; };
+		DF60ABC112FFF2DD008E1E51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF60ABC012FFF2DD008E1E51 /* CoreGraphics.framework */; };
+		DF60ABC712FFF2DD008E1E51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF60ABC512FFF2DD008E1E51 /* InfoPlist.strings */; };
+		DF60ABCA12FFF2DD008E1E51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF60ABC912FFF2DD008E1E51 /* main.m */; };
+		DF60ABCD12FFF2DD008E1E51 /* mangchuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF60ABCC12FFF2DD008E1E51 /* mangchuAppDelegate.m */; };
+		DF60ABD012FFF2DD008E1E51 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF60ABCE12FFF2DD008E1E51 /* MainWindow.xib */; };
+		DF60ABD312FFF2DD008E1E51 /* mangchuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF60ABD212FFF2DD008E1E51 /* mangchuViewController.m */; };
+		DF60ABD612FFF2DD008E1E51 /* mangchuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF60ABD412FFF2DD008E1E51 /* mangchuViewController.xib */; };
+		DF60ABDD12FFF2DD008E1E51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF60ABBC12FFF2DD008E1E51 /* UIKit.framework */; };
+		DF60ABDE12FFF2DD008E1E51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF60ABBE12FFF2DD008E1E51 /* Foundation.framework */; };
+		DF60ABDF12FFF2DD008E1E51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF60ABC012FFF2DD008E1E51 /* CoreGraphics.framework */; };
+		DF60ABE512FFF2DD008E1E51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF60ABE312FFF2DD008E1E51 /* InfoPlist.strings */; };
+		DF60ABE812FFF2DD008E1E51 /* mangchuTests.h in Resources */ = {isa = PBXBuildFile; fileRef = DF60ABE712FFF2DD008E1E51 /* mangchuTests.h */; };
+		DF60ABEA12FFF2DD008E1E51 /* mangchuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF60ABE912FFF2DD008E1E51 /* mangchuTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF60ABB812FFF2DD008E1E51 /* mangchu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mangchu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF60ABBC12FFF2DD008E1E51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF60ABBE12FFF2DD008E1E51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF60ABC012FFF2DD008E1E51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF60ABC412FFF2DD008E1E51 /* mangchu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mangchu-Info.plist"; sourceTree = "<group>"; };
+		DF60ABC612FFF2DD008E1E51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF60ABC812FFF2DD008E1E51 /* mangchu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mangchu-Prefix.pch"; sourceTree = "<group>"; };
+		DF60ABC912FFF2DD008E1E51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF60ABCB12FFF2DD008E1E51 /* mangchuAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mangchuAppDelegate.h; sourceTree = "<group>"; };
+		DF60ABCC12FFF2DD008E1E51 /* mangchuAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mangchuAppDelegate.m; sourceTree = "<group>"; };
+		DF60ABCF12FFF2DD008E1E51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DF60ABD112FFF2DD008E1E51 /* mangchuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mangchuViewController.h; sourceTree = "<group>"; };
+		DF60ABD212FFF2DD008E1E51 /* mangchuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mangchuViewController.m; sourceTree = "<group>"; };
+		DF60ABD512FFF2DD008E1E51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/mangchuViewController.xib; sourceTree = "<group>"; };
+		DF60ABDC12FFF2DD008E1E51 /* mangchuTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mangchuTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF60ABE212FFF2DD008E1E51 /* mangchuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mangchuTests-Info.plist"; sourceTree = "<group>"; };
+		DF60ABE412FFF2DD008E1E51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF60ABE612FFF2DD008E1E51 /* mangchuTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mangchuTests-Prefix.pch"; sourceTree = "<group>"; };
+		DF60ABE712FFF2DD008E1E51 /* mangchuTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mangchuTests.h; sourceTree = "<group>"; };
+		DF60ABE912FFF2DD008E1E51 /* mangchuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mangchuTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF60ABB512FFF2DD008E1E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF60ABBD12FFF2DD008E1E51 /* UIKit.framework in Frameworks */,
+				DF60ABBF12FFF2DD008E1E51 /* Foundation.framework in Frameworks */,
+				DF60ABC112FFF2DD008E1E51 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF60ABD812FFF2DD008E1E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF60ABDD12FFF2DD008E1E51 /* UIKit.framework in Frameworks */,
+				DF60ABDE12FFF2DD008E1E51 /* Foundation.framework in Frameworks */,
+				DF60ABDF12FFF2DD008E1E51 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF60ABAD12FFF2DD008E1E51 = {
+			isa = PBXGroup;
+			children = (
+				DF60ABC212FFF2DD008E1E51 /* mangchu */,
+				DF60ABE012FFF2DD008E1E51 /* mangchuTests */,
+				DF60ABBB12FFF2DD008E1E51 /* Frameworks */,
+				DF60ABB912FFF2DD008E1E51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF60ABB912FFF2DD008E1E51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF60ABB812FFF2DD008E1E51 /* mangchu.app */,
+				DF60ABDC12FFF2DD008E1E51 /* mangchuTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF60ABBB12FFF2DD008E1E51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF60ABBC12FFF2DD008E1E51 /* UIKit.framework */,
+				DF60ABBE12FFF2DD008E1E51 /* Foundation.framework */,
+				DF60ABC012FFF2DD008E1E51 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF60ABC212FFF2DD008E1E51 /* mangchu */ = {
+			isa = PBXGroup;
+			children = (
+				DF60ABCB12FFF2DD008E1E51 /* mangchuAppDelegate.h */,
+				DF60ABCC12FFF2DD008E1E51 /* mangchuAppDelegate.m */,
+				DF60ABCE12FFF2DD008E1E51 /* MainWindow.xib */,
+				DF60ABD112FFF2DD008E1E51 /* mangchuViewController.h */,
+				DF60ABD212FFF2DD008E1E51 /* mangchuViewController.m */,
+				DF60ABD412FFF2DD008E1E51 /* mangchuViewController.xib */,
+				DF60ABC312FFF2DD008E1E51 /* Supporting Files */,
+			);
+			path = mangchu;
+			sourceTree = "<group>";
+		};
+		DF60ABC312FFF2DD008E1E51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF60ABC412FFF2DD008E1E51 /* mangchu-Info.plist */,
+				DF60ABC512FFF2DD008E1E51 /* InfoPlist.strings */,
+				DF60ABC812FFF2DD008E1E51 /* mangchu-Prefix.pch */,
+				DF60ABC912FFF2DD008E1E51 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF60ABE012FFF2DD008E1E51 /* mangchuTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF60ABE712FFF2DD008E1E51 /* mangchuTests.h */,
+				DF60ABE912FFF2DD008E1E51 /* mangchuTests.m */,
+				DF60ABE112FFF2DD008E1E51 /* Supporting Files */,
+			);
+			path = mangchuTests;
+			sourceTree = "<group>";
+		};
+		DF60ABE112FFF2DD008E1E51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF60ABE212FFF2DD008E1E51 /* mangchuTests-Info.plist */,
+				DF60ABE312FFF2DD008E1E51 /* InfoPlist.strings */,
+				DF60ABE612FFF2DD008E1E51 /* mangchuTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF60ABB712FFF2DD008E1E51 /* mangchu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF60ABED12FFF2DD008E1E51 /* Build configuration list for PBXNativeTarget "mangchu" */;
+			buildPhases = (
+				DF60ABB412FFF2DD008E1E51 /* Sources */,
+				DF60ABB512FFF2DD008E1E51 /* Frameworks */,
+				DF60ABB612FFF2DD008E1E51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mangchu;
+			productName = mangchu;
+			productReference = DF60ABB812FFF2DD008E1E51 /* mangchu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF60ABDB12FFF2DD008E1E51 /* mangchuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF60ABF012FFF2DD008E1E51 /* Build configuration list for PBXNativeTarget "mangchuTests" */;
+			buildPhases = (
+				DF60ABD712FFF2DD008E1E51 /* Sources */,
+				DF60ABD812FFF2DD008E1E51 /* Frameworks */,
+				DF60ABD912FFF2DD008E1E51 /* Resources */,
+				DF60ABDA12FFF2DD008E1E51 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mangchuTests;
+			productName = mangchuTests;
+			productReference = DF60ABDC12FFF2DD008E1E51 /* mangchuTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF60ABAF12FFF2DD008E1E51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "한국외국어대학교";
+			};
+			buildConfigurationList = DF60ABB212FFF2DD008E1E51 /* Build configuration list for PBXProject "mangchu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF60ABAD12FFF2DD008E1E51;
+			productRefGroup = DF60ABB912FFF2DD008E1E51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF60ABB712FFF2DD008E1E51 /* mangchu */,
+				DF60ABDB12FFF2DD008E1E51 /* mangchuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF60ABB612FFF2DD008E1E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF60ABC712FFF2DD008E1E51 /* InfoPlist.strings in Resources */,
+				DF60ABD012FFF2DD008E1E51 /* MainWindow.xib in Resources */,
+				DF60ABD612FFF2DD008E1E51 /* mangchuViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF60ABD912FFF2DD008E1E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF60ABE512FFF2DD008E1E51 /* InfoPlist.strings in Resources */,
+				DF60ABE812FFF2DD008E1E51 /* mangchuTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DF60ABDA12FFF2DD008E1E51 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF60ABB412FFF2DD008E1E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF60ABCA12FFF2DD008E1E51 /* main.m in Sources */,
+				DF60ABCD12FFF2DD008E1E51 /* mangchuAppDelegate.m in Sources */,
+				DF60ABD312FFF2DD008E1E51 /* mangchuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF60ABD712FFF2DD008E1E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF60ABEA12FFF2DD008E1E51 /* mangchuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF60ABC512FFF2DD008E1E51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF60ABC612FFF2DD008E1E51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF60ABCE12FFF2DD008E1E51 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF60ABCF12FFF2DD008E1E51 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DF60ABD412FFF2DD008E1E51 /* mangchuViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF60ABD512FFF2DD008E1E51 /* en */,
+			);
+			name = mangchuViewController.xib;
+			sourceTree = "<group>";
+		};
+		DF60ABE312FFF2DD008E1E51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF60ABE412FFF2DD008E1E51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF60ABEB12FFF2DD008E1E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF60ABEC12FFF2DD008E1E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		DF60ABEE12FFF2DD008E1E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mangchu/mangchu-Prefix.pch";
+				INFOPLIST_FILE = "mangchu/mangchu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF60ABEF12FFF2DD008E1E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mangchu/mangchu-Prefix.pch";
+				INFOPLIST_FILE = "mangchu/mangchu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DF60ABF112FFF2DD008E1E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mangchu.app/mangchu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mangchuTests/mangchuTests-Prefix.pch";
+				INFOPLIST_FILE = "mangchuTests/mangchuTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DF60ABF212FFF2DD008E1E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mangchu.app/mangchu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mangchuTests/mangchuTests-Prefix.pch";
+				INFOPLIST_FILE = "mangchuTests/mangchuTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF60ABB212FFF2DD008E1E51 /* Build configuration list for PBXProject "mangchu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF60ABEB12FFF2DD008E1E51 /* Debug */,
+				DF60ABEC12FFF2DD008E1E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF60ABED12FFF2DD008E1E51 /* Build configuration list for PBXNativeTarget "mangchu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF60ABEE12FFF2DD008E1E51 /* Debug */,
+				DF60ABEF12FFF2DD008E1E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF60ABF012FFF2DD008E1E51 /* Build configuration list for PBXNativeTarget "mangchuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF60ABF112FFF2DD008E1E51 /* Debug */,
+				DF60ABF212FFF2DD008E1E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF60ABAF12FFF2DD008E1E51 /* Project object */;
+}
